@@ -37,6 +37,7 @@ def main(config, path, debug):
         result,
         severity_level=logging.DEBUG if debug else logging.INFO,
     )
+    return result
 
 
 if __name__ == "__main__":

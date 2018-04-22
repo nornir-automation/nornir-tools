@@ -1,0 +1,89 @@
+[1m[36mBackup configuration of devices*************************************************
+[1m[34m* spine00.cmh ** changed : True ************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/spine00.cmh
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* spine01.cmh ** changed : True ************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/spine01.cmh
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* leaf00.cmh ** changed : True *************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/leaf00.cmh
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* leaf01.cmh ** changed : True *************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/leaf01.cmh
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* spine00.bma ** changed : True ************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/spine00.bma
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* spine01.bma ** changed : True ************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/spine01.bma
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* leaf00.bma ** changed : True *************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/leaf00.bma
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* leaf01.bma ** changed : True *************************************************
+[1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
+[1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
+--- /tmp/leaf01.bma
+
++++ new
+
+@@ -0,0 +1 @@
+
++fake running configuration
+[1m[32m^^^^ END Backup configuration of devices ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
