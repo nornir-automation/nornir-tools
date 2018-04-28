@@ -1,0 +1,9 @@
+decorator
+pytest
+pytest-cov
+pytest-pythonpath
+pylama
+tox
+flake8-import-order
+black==18.4a1; python_version >= '3.6'
+-r requirements.txt
