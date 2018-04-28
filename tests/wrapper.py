@@ -31,7 +31,10 @@ def wrap_cli_test(output, save_output=False):
         sys.stdout = backup_stdout
         sys.stderr = backup_stderr
 
-        if save_output or os.getenv("BRG_TOOLS_TESTS_SAVE_OUTPUT"):
+        if (
+            save_output
+            or os.getenv("BRG_TOOLS_TESTS_SAVE_OUTPUT")
+        ):
             with open(f"{output}.stdout", "w+") as f:
                 f.write(stdout.getvalue())
             with open(f"{output}.stderr", "w+") as f:

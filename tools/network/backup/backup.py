@@ -40,7 +40,7 @@ def main(config, path, debug):
     return result
 
 
-if __name__ == "__main__":
+def run():
     parser = argparse.ArgumentParser(
         description="Tool to backup network equipment using napalm"
     )
@@ -64,3 +64,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args.config, args.path, args.debug)
+
+
+if __name__ == "__main__":
+    run()
