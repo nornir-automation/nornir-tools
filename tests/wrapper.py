@@ -1,4 +1,5 @@
 import io
+import os
 import sys
 
 from decorator import decorator
@@ -7,7 +8,9 @@ from decorator import decorator
 def wrap_cli_test(output, save_output=False):
     """
     This decorator captures the stdout and stder and compare it
-    with the contects of the specified files.
+    with the contacts of the specified files.
+
+    Instead of save_output you can set the env variable BRG_TOOLS_TESTS_SAVE_OUTPUT
 
     Arguments:
         output (string): Path to the output. stdout and stderr prefixes will be added automatically
@@ -28,15 +31,17 @@ def wrap_cli_test(output, save_output=False):
         sys.stdout = backup_stdout
         sys.stderr = backup_stderr
 
-        if save_output:
+        if save_output or os.getenv("BRG_TOOLS_TESTS_SAVE_OUTPUT"):
             with open(f"{output}.stdout", "w+") as f:
                 f.write(stdout.getvalue())
             with open(f"{output}.stderr", "w+") as f:
-                f.write(stdout.getvalue())
+                f.write(stderr.getvalue())
 
         with open(f"{output}.stdout", "r") as f:
-            assert stdout.getvalue() == f.read()
+            expected = f.read()
+            assert stdout.getvalue() == expected
         with open(f"{output}.stderr", "r") as f:
-            assert stderr.getvalue() == f.read()
+            expected = f.read()
+            assert stderr.getvalue() == expected
 
     return run_test
