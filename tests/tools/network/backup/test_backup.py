@@ -1,8 +1,8 @@
 import os
 
-import backup
-
 from tests.wrapper import wrap_cli_test
+
+from tools.network.backup import backup
 
 
 class TestBackup(object):
