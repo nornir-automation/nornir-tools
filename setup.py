@@ -26,7 +26,8 @@ setup(
     url="https://github.com/brigade-automation/brg-tools",
     entry_points={
         "console_scripts": {
-            "brg-tools-nwbackup = tools.network.backup.backup:run"
+            "brg-tools-nw-backup = tools.network.backup.backup:run",
+            "brg-tools-nw-get_gacts = tools.network.get_facts.get_facts:run",
         }
     },
     include_package_data=True,
