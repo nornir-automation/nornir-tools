@@ -2,7 +2,11 @@
 from setuptools import setup
 
 with open("requirements.txt", "r") as fs:
-    reqs = [r for r in fs.read().splitlines() if (len(r) > 0 and not r.startswith("#"))]
+    reqs = [
+        r
+        for r in fs.read().splitlines()
+        if (len(r) > 0 and not r.startswith("#"))
+    ]
 
 with open("README.md", "r") as fs:
     long_description = fs.read()
