@@ -2,11 +2,7 @@
 from setuptools import setup
 
 with open("requirements.txt", "r") as fs:
-    reqs = [
-        r
-        for r in fs.read().splitlines()
-        if (len(r) > 0 and not r.startswith("#"))
-    ]
+    reqs = [r for r in fs.read().splitlines() if (len(r) > 0 and not r.startswith("#"))]
 
 with open("README.md", "r") as fs:
     long_description = fs.read()
@@ -27,7 +23,7 @@ setup(
     entry_points={
         "console_scripts": {
             "brg-tools-nw-backup = tools.network.backup.backup:run",
-            "brg-tools-nw-get_gacts = tools.network.get_facts.get_facts:run",
+            "brg-tools-nw-get_facts = tools.network.get_facts.get_facts:run",
         }
     },
     include_package_data=True,
