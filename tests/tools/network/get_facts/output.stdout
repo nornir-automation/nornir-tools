@@ -1,5 +1,5 @@
 [1m[36mRetrieving facts from the device************************************************
-[1m[34m* spine00.cmh ** changed : False ***********************************************
+[1m[34m* leaf00.bma ** changed : False ************************************************
 [1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
 { 'config': { 'candidate': 'fake candidate configuration',
               'running': 'fake running configuration',
@@ -568,42 +568,6 @@
                                   'last_flapped': 7876346,
                                   'mac_address': '54:E0:32:80:68:B5',
                                   'speed': 10000}}}
-[1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[1m[34m* spine01.cmh ** changed : False ***********************************************
-[1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
-{ 'config': { 'candidate': 'fake candidate configuration',
-              'running': 'fake running configuration',
-              'startup': 'fake startup configuration'},
-  'interfaces': { 'Ethernet1': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.4148579,
-                                 'mac_address': '08:00:27:C6:00:F0',
-                                 'speed': 0},
-                  'Ethernet2': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.4151127,
-                                 'mac_address': '08:00:27:10:C4:8F',
-                                 'speed': 0},
-                  'Ethernet3': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.4152465,
-                                 'mac_address': '08:00:27:1F:60:43',
-                                 'speed': 0},
-                  'Ethernet4': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.415464,
-                                 'mac_address': '08:00:27:E0:12:D2',
-                                 'speed': 0},
-                  'Management1': { 'description': '',
-                                   'is_enabled': True,
-                                   'is_up': True,
-                                   'last_flapped': 1466586841.4284112,
-                                   'mac_address': '08:00:27:20:B9:04',
-                                   'speed': 1000}}}
 [1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [1m[34m* leaf00.cmh ** changed : False ************************************************
 [1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
@@ -1174,6 +1138,42 @@
                                   'last_flapped': 7876346,
                                   'mac_address': '54:E0:32:80:68:B5',
                                   'speed': 10000}}}
+[1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* leaf01.bma ** changed : False ************************************************
+[1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
+{ 'config': { 'candidate': 'fake candidate configuration',
+              'running': 'fake running configuration',
+              'startup': 'fake startup configuration'},
+  'interfaces': { 'Ethernet1': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.4148579,
+                                 'mac_address': '08:00:27:C6:00:F0',
+                                 'speed': 0},
+                  'Ethernet2': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.4151127,
+                                 'mac_address': '08:00:27:10:C4:8F',
+                                 'speed': 0},
+                  'Ethernet3': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.4152465,
+                                 'mac_address': '08:00:27:1F:60:43',
+                                 'speed': 0},
+                  'Ethernet4': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.415464,
+                                 'mac_address': '08:00:27:E0:12:D2',
+                                 'speed': 0},
+                  'Management1': { 'description': '',
+                                   'is_enabled': True,
+                                   'is_up': True,
+                                   'last_flapped': 1466586841.4284112,
+                                   'mac_address': '08:00:27:20:B9:04',
+                                   'speed': 1000}}}
 [1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [1m[34m* leaf01.cmh ** changed : False ************************************************
 [1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
@@ -1781,43 +1781,7 @@
                                   'mac_address': '54:E0:32:80:68:B5',
                                   'speed': 10000}}}
 [1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[1m[34m* spine01.bma ** changed : False ***********************************************
-[1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
-{ 'config': { 'candidate': 'fake candidate configuration',
-              'running': 'fake running configuration',
-              'startup': 'fake startup configuration'},
-  'interfaces': { 'Ethernet1': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.4148579,
-                                 'mac_address': '08:00:27:C6:00:F0',
-                                 'speed': 0},
-                  'Ethernet2': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.4151127,
-                                 'mac_address': '08:00:27:10:C4:8F',
-                                 'speed': 0},
-                  'Ethernet3': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.4152465,
-                                 'mac_address': '08:00:27:1F:60:43',
-                                 'speed': 0},
-                  'Ethernet4': { 'description': '',
-                                 'is_enabled': True,
-                                 'is_up': True,
-                                 'last_flapped': 1466586841.415464,
-                                 'mac_address': '08:00:27:E0:12:D2',
-                                 'speed': 0},
-                  'Management1': { 'description': '',
-                                   'is_enabled': True,
-                                   'is_up': True,
-                                   'last_flapped': 1466586841.4284112,
-                                   'mac_address': '08:00:27:20:B9:04',
-                                   'speed': 1000}}}
-[1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[1m[34m* leaf00.bma ** changed : False ************************************************
+[1m[34m* spine00.cmh ** changed : False ***********************************************
 [1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
 { 'config': { 'candidate': 'fake candidate configuration',
               'running': 'fake running configuration',
@@ -2387,7 +2351,43 @@
                                   'mac_address': '54:E0:32:80:68:B5',
                                   'speed': 10000}}}
 [1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[1m[34m* leaf01.bma ** changed : False ************************************************
+[1m[34m* spine01.bma ** changed : False ***********************************************
+[1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
+{ 'config': { 'candidate': 'fake candidate configuration',
+              'running': 'fake running configuration',
+              'startup': 'fake startup configuration'},
+  'interfaces': { 'Ethernet1': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.4148579,
+                                 'mac_address': '08:00:27:C6:00:F0',
+                                 'speed': 0},
+                  'Ethernet2': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.4151127,
+                                 'mac_address': '08:00:27:10:C4:8F',
+                                 'speed': 0},
+                  'Ethernet3': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.4152465,
+                                 'mac_address': '08:00:27:1F:60:43',
+                                 'speed': 0},
+                  'Ethernet4': { 'description': '',
+                                 'is_enabled': True,
+                                 'is_up': True,
+                                 'last_flapped': 1466586841.415464,
+                                 'mac_address': '08:00:27:E0:12:D2',
+                                 'speed': 0},
+                  'Management1': { 'description': '',
+                                   'is_enabled': True,
+                                   'is_up': True,
+                                   'last_flapped': 1466586841.4284112,
+                                   'mac_address': '08:00:27:20:B9:04',
+                                   'speed': 1000}}}
+[1m[32m^^^^ END Retrieving facts from the device ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1m[34m* spine01.cmh ** changed : False ***********************************************
 [1m[32mvvvv Retrieving facts from the device ** changed : False vvvvvvvvvvvvvvvvvvvvvvv INFO
 { 'config': { 'candidate': 'fake candidate configuration',
               'running': 'fake running configuration',
