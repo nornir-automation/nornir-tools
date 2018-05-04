@@ -13,7 +13,7 @@ def backup(task, path):
     r = task.run(
         task=napalm_get,
         getters=["config"],
-        severity=logging.DEBUG,
+        severity_level=logging.DEBUG,
     )
     task.run(
         task=write_file,
