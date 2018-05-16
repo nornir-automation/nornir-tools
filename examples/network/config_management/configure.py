@@ -2,13 +2,13 @@
 """
 Runbook to configure datacenter
 """
-from brigade.core import InitBrigade
-from brigade.plugins.functions.text import (
+from nornir.core import InitNornir
+from nornir.plugins.functions.text import (
     print_result, print_title
 )
-from brigade.plugins.tasks.data import load_yaml
-from brigade.plugins.tasks.networking import napalm_configure
-from brigade.plugins.tasks.text import template_file
+from nornir.plugins.tasks.data import load_yaml
+from nornir.plugins.tasks.networking import napalm_configure
+from nornir.plugins.tasks.text import template_file
 
 
 def configure(task):
@@ -72,14 +72,14 @@ def configure(task):
     )
 
 
-# Initialize brigade
-brg = InitBrigade(
-    config_file="brigade.yaml", dry_run=True, num_workers=20
+# Initialize nornir
+nr = InitNornir(
+    config_file="nornir.yaml", dry_run=True, num_workers=20
 )
 
 
 # Let's just filter the hosts we want to operate on
-cmh = brg.filter(type="network_device", site="cmh")
+cmh = nr.filter(type="network_device", site="cmh")
 
 # Let's call the grouped tasks defined above
 results = cmh.run(task=configure)

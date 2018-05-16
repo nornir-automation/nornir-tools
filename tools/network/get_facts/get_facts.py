@@ -3,18 +3,18 @@ import argparse
 import logging
 import os
 
-from brigade.core import InitBrigade
-from brigade.plugins.functions.text import print_result
-from brigade.plugins.tasks.networking import napalm_get
+from nornir.core import InitNornir
+from nornir.plugins.functions.text import print_result
+from nornir.plugins.tasks.networking import napalm_get
 
 
 def main(config, getters, debug):
-    brg = InitBrigade(
+    nr = InitNornir(
         config_file=config,
         dry_run=False,
         num_workers=1 if debug else 20,
     )
-    result = brg.run(
+    result = nr.run(
         name="Retrieving facts from the device",
         task=napalm_get,
         getters=getters,
@@ -37,9 +37,9 @@ def run():
         "-c",
         "--config",
         default=os.environ.get(
-            "BRIGADE_CONFIGURATION", "brigade.yaml"
+            "BRIGADE_CONFIGURATION", "nornir.yaml"
         ),
-        help="Path to brigade configuration. Defaults to brigade.yaml. "
+        help="Path to nornir configuration. Defaults to nornir.yaml. "
         "Can be set via env variable BRIGADE_CONFIGURATION",
     )
     parser.add_argument(

@@ -1,114 +1,114 @@
 ---
 spine00.cmh:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: vagrant
-    brigade_network_api_port: 12444
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: vagrant
+    nornir_network_api_port: 12444
     site: cmh
     role: spine
     groups:
         - cmh
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/spine00.cmh/
     type: network_device
 
 spine01.cmh:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: ""
-    brigade_network_api_port: 12204
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: ""
+    nornir_network_api_port: 12204
     site: cmh
     role: spine
     groups:
         - cmh
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/spine01.cmh/
     type: network_device
 
 leaf00.cmh:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: vagrant
-    brigade_network_api_port: 12443
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: vagrant
+    nornir_network_api_port: 12443
     site: cmh
     role: leaf
     groups:
         - cmh
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/leaf00.cmh/
     type: network_device
     asn: 65100
 
 leaf01.cmh:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: ""
-    brigade_network_api_port: 12203
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: ""
+    nornir_network_api_port: 12203
     site: cmh
     role: leaf
     groups:
         - cmh
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/leaf01.cmh/
     type: network_device
     asn: 65101
 
 spine00.bma:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: vagrant
-    brigade_network_api_port: 12444
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: vagrant
+    nornir_network_api_port: 12444
     site: bma
     role: spine
     groups:
         - bma
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/spine00.bma/
     type: network_device
 
 spine01.bma:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: ""
-    brigade_network_api_port: 12204
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: ""
+    nornir_network_api_port: 12204
     site: bma
     role: spine
     groups:
         - bma
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/spine01.bma/
     type: network_device
 
 leaf00.bma:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: vagrant
-    brigade_network_api_port: 12443
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: vagrant
+    nornir_network_api_port: 12443
     site: bma
     role: leaf
     groups:
         - bma
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/leaf00.bma/
     type: network_device
 
 leaf01.bma:
-    brigade_host: 127.0.0.1
-    brigade_username: vagrant
-    brigade_password: wrong_password
-    brigade_network_api_port: 12203
+    nornir_host: 127.0.0.1
+    nornir_username: vagrant
+    nornir_password: wrong_password
+    nornir_network_api_port: 12203
     site: bma
     role: leaf
     groups:
         - bma
-    brigade_nos: mock
+    nornir_nos: mock
     napalm_options:
         path: tests/mocked/data/leaf01.bma/
     type: network_device

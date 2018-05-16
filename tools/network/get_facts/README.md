@@ -14,8 +14,8 @@ For help:
       -h, --help            show this help message and exit
       -d, --debug
       -c CONFIG, --config CONFIG
-                            Path to brigade configuration. Defaults to
-                            brigade.yaml. Can be set via env variable
+                            Path to nornir configuration. Defaults to
+                            nornir.yaml. Can be set via env variable
                             BRIGADE_CONFIGURATION
       -g GETTER, --getter GETTER
                             Getters to retrieve. Pass this option as many times as

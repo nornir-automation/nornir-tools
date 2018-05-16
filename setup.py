@@ -17,17 +17,17 @@ __license__ = "Apache License, version 2"
 __version__ = "0.0.1"
 
 setup(
-    name="brg-tools",
+    name="nornir-tools",
     version=__version__,
     description="Fighting fire with fire",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author=__author__,
-    url="https://github.com/brigade-automation/brg-tools",
+    url="https://github.com/nornir-automation/nornir-tools",
     entry_points={
         "console_scripts": {
-            "brg-tools-nw-backup = tools.network.backup.backup:run",
-            "brg-tools-nw-get_facts = tools.network.get_facts.get_facts:run",
+            "nornir-tools-nw-backup = tools.network.backup.backup:run",
+            "nornir-tools-nw-get_facts = tools.network.get_facts.get_facts:run",
         }
     },
     include_package_data=True,
