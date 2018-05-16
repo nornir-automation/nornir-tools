@@ -1,5 +1,5 @@
 ---
-inventory: brigade.plugins.inventory.simple.SimpleInventory
+inventory: nornir.plugins.inventory.simple.SimpleInventory
 SimpleInventory:
     host_file: "tests/mocked/inventory/hosts.yaml"
     group_file: "tests/mocked/inventory/groups.yaml"

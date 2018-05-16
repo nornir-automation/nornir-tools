@@ -2,7 +2,7 @@
 [1m[34m* leaf00.bma ** changed : True *************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/leaf00.bma
+--- /tmp/nr_tools_test/test_backup/leaf00.bma
 
 +++ new
 
@@ -13,7 +13,7 @@
 [1m[34m* leaf00.cmh ** changed : True *************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/leaf00.cmh
+--- /tmp/nr_tools_test/test_backup/leaf00.cmh
 
 +++ new
 
@@ -24,7 +24,7 @@
 [1m[34m* leaf01.bma ** changed : True *************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/leaf01.bma
+--- /tmp/nr_tools_test/test_backup/leaf01.bma
 
 +++ new
 
@@ -35,7 +35,7 @@
 [1m[34m* leaf01.cmh ** changed : True *************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/leaf01.cmh
+--- /tmp/nr_tools_test/test_backup/leaf01.cmh
 
 +++ new
 
@@ -46,7 +46,7 @@
 [1m[34m* spine00.bma ** changed : True ************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/spine00.bma
+--- /tmp/nr_tools_test/test_backup/spine00.bma
 
 +++ new
 
@@ -57,7 +57,7 @@
 [1m[34m* spine00.cmh ** changed : True ************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/spine00.cmh
+--- /tmp/nr_tools_test/test_backup/spine00.cmh
 
 +++ new
 
@@ -68,7 +68,7 @@
 [1m[34m* spine01.bma ** changed : True ************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/spine01.bma
+--- /tmp/nr_tools_test/test_backup/spine01.bma
 
 +++ new
 
@@ -79,7 +79,7 @@
 [1m[34m* spine01.cmh ** changed : True ************************************************
 [1m[32mvvvv Backup configuration of devices ** changed : False vvvvvvvvvvvvvvvvvvvvvvvv INFO
 [1m[33m---- write_file ** changed : True ---------------------------------------------- INFO
---- /tmp/brg_tools_test/test_backup/spine01.cmh
+--- /tmp/nr_tools_test/test_backup/spine01.cmh
 
 +++ new
 
