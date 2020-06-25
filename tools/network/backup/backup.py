@@ -3,7 +3,7 @@ import argparse
 import logging
 import os
 
-from nornir.core import InitNornir
+from nornir import InitNornir
 from nornir.plugins.functions.text import print_result
 from nornir.plugins.tasks.files import write_file
 from nornir.plugins.tasks.networking import napalm_get
@@ -26,12 +26,12 @@ def main(config, path, debug):
     nr = InitNornir(
         config_file=config,
         dry_run=False,
-        num_workers=1 if debug else 20,
     )
     result = nr.run(
         name="Backup configuration of devices",
         task=backup,
         path=path,
+        num_workers=1 if debug else 20,
     )
     print_result(
         result,
